@@ -1,0 +1,33 @@
+body{
+  background-color: rgb(166, 213, 255);
+}
+
+
+.App{
+  display: flex;
+  justify-content: center;
+}
+
+.todoList h1 {
+  text-align: center;
+}
+
+.clearButton{
+  display: flex;
+  justify-content: center;
+}
+
+.clearButton button{
+  margin:10px;
+  background-color: gray;
+  color: white;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.clearButton button:hover{
+  background-color: rgb(68, 68, 68);
+}
+

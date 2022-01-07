@@ -1,0 +1,32 @@
+.todoItem{
+    display: flex;
+    margin: 7px;
+    border-radius: 5px;
+}
+
+.todoItem button{
+    background-color: gray;
+    outline: none;
+    color:white;
+    border: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.todoItem div{
+    margin: 5px;
+}
+
+.todoItem_button:last-of-type{
+    margin-left: auto;
+}
+
+.completed{
+    background-color:green;
+}
+
+.todoItem button:hover{
+    background-color: rgb(68, 68, 68);
+}

@@ -1,0 +1,26 @@
+.newTodoForm {
+    margin:10px;
+    border-bottom:1px solid gray;
+}
+
+.newTodoForm input {
+    border:none;
+    background: transparent;
+    font-size: 20px;
+    outline: none;
+}
+
+.newTodoForm button{
+    margin:10px;
+    background-color: gray;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newTodoForm button:hover{
+    background-color: rgb(68, 68, 68);
+}
+
